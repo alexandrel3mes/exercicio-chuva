@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Repositório Chuva
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Essa aplicação foi criada para o processo seletivo na empresa Galoá (Chuva Inc.)
 
 ## Available Scripts
 
