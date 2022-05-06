@@ -1,6 +1,7 @@
 import Footer from './Components/Footer';
 import Header from './Components/Header';
 import '../src/Styles/App.css';
+import DetailCard from './Components/DetailCard';
 
 function App() {
   return (
@@ -37,8 +38,8 @@ function App() {
 
           <div className="user-info-header">
             <div className="message-with-email">
-              <p>Bem Vindo!</p>
-              <p>alguem12@galoascience.com</p>
+              <p className="message">Bem Vindo!</p>
+              <p className="message">alguem12@galoascience.com</p>
             </div>
             <div className="profile">
               <img
@@ -49,6 +50,23 @@ function App() {
             </div>            
           </div>
         </div>
+
+        <p className="video-title">
+        Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município de Campinas/SP 
+        </p>
+
+        <button>
+          Download
+        </button>
+        <button>
+        ❤️
+        </button>
+        <button>
+        ✨
+        </button>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZoAFngyIuZY" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <DetailCard />
         <Footer />
       </div>
     </div>

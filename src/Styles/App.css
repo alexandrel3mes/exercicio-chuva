@@ -71,6 +71,10 @@ body {
   align-items: center;
 }
 
+.message {
+  text-align: right;
+}
+
 .profile-pic {
   width: 20%;
   border-radius: 100%;
