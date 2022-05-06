@@ -1,6 +1,25 @@
+.App {
+  display: flex;
+}
+
+.side-header {
+  height: 100%;
+  background-color: white;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.profile-pic {
+  width: 5%;
+}
+
 .footer {
   position: absolute;
-  left: 0;
+  right: 0;
   bottom: 0;
   width: 100%;
   background-color: red;
