@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto&display=swap');
+
+:root {
+  --bg-color: white;
+  --main-orange: #ED7839;
+  --secondary-orange: #FDF1EB;
+  --orange-gradient: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+  --links-text-color: #725C5C;
+  --footer-btn-color: #71488E;
+  --quicksand-font: 'Quicksand', sans-serif;
+  --roboto-font: 'Roboto', sans-serif;
+  --thin-border: 1px solid rgb(180, 180, 180, 0.4);
+  --title-color: #4E4E4E;
+  --author-background: #d1d1d1;
+}
+
+@media (min-width: 1000px) {
+  .discussion {
+    width: 80%;
+    border: var(--thin-border);
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .discussion-title {
+    margin: 0;
+    padding: 20px;
+    font-family: var(--roboto-font);
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--title-color);
+    background: var(--secondary-orange);
+  }
+
+  .discussion-body {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .discussion-header {
+    display: flex;
+    text-align: center;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .header-share {
+    font-family: var(--roboto-font);
+    color: var(--main-orange);
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .header-text {
+    font-family: var(--quicksand-font);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--title-color);
+  }
+
+  .create-btn {
+    font-family: var(--quicksand-font);
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    background: var(--orange-gradient);
+    padding: 10px 20px;
+  }
+}

@@ -6,7 +6,7 @@ import SideMenu from './Components/SideMenu';
 import Header from './Components/Header';
 import DetailCard from './Components/DetailCard';
 import Overview from './Components/Overview';
-import QuestionCard from './Components/QuestionCard';
+import DiscussionCard from './Components/DiscussionCard';
 
 function App() {
   return (
@@ -51,7 +51,7 @@ function App() {
           </section>
 
           <section>
-            <QuestionCard />
+            <DiscussionCard />
           </section>
 
         <Footer />
