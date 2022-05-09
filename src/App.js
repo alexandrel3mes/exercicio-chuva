@@ -6,6 +6,7 @@ import SideMenu from './Components/SideMenu';
 import Header from './Components/Header';
 import DetailCard from './Components/DetailCard';
 import Overview from './Components/Overview';
+import QuestionCard from './Components/QuestionCard';
 
 function App() {
   return (
@@ -47,6 +48,10 @@ function App() {
 
           <section>
             <Overview />
+          </section>
+
+          <section>
+            <QuestionCard />
           </section>
 
         <Footer />
