@@ -18,10 +18,56 @@ body {
 
 @media (min-width: 1000px) {
   .main {
-    margin-left: 200px;
     position: absolute;
     right: 0;
-    top: 90px;
-    width: 85%;
+    top: 100px;
+    width: 80%;
+  }
+
+  .first-sec {
+    font-family: var(--roboto-font);
+    color: var(--main-orange);
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: flex-start;
+  }
+
+  .first-sec-btn {
+    background: var(--main-orange);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: var(--roboto-font);
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 10px;
+    margin-left: 10px;
+  }
+
+  .video {
+    width: 80%;
+  }
+
+  .p-title {
+    font-weight: 900;
+    font-size: 20px;
+  }
+
+  .title-and-video {
+    display: flex;
+    width: 50%;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  .btns-and-details {
+    display: flex;
+    width: 50%;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
   }
 }
