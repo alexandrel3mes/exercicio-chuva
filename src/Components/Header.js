@@ -7,13 +7,13 @@ function Header() {
   return (
     <header className="header">
           <div className="top-title">
-            <p className="top-tecnic">
+            <p className="top-tecnic top-p">
               Anais do Simpósio Latino Americano de Ciências de Alimentos
             </p>
-            <h5 className="top-tecnic">
+            <p className="top-tecnic top-h">
             Anais do 13 Simpósio Latino Americano de Ciências de Alimentos
-            </h5>
-            <p className="top-tecnic">
+            </p>
+            <p className="top-tecnic top-p">
               ISSN: 1234-5678
             </p>
           </div>

@@ -18,9 +18,10 @@
     position: absolute;
     flex-flow: row nowrap;
     align-items: center;
-    bottom: 0;
+    bottom: 0px;
     right: 0;
     width: 75%;
+    border-top: 1px solid rgb(165, 165, 165, 0.5);
     margin: 5px 40px 40px 0px;
   }
   
