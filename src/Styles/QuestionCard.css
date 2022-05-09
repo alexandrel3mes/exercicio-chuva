@@ -11,6 +11,7 @@
   --roboto-font: 'Roboto', sans-serif;
   --thin-border: 1px solid rgb(180, 180, 180, 0.4);
   --title-color: #4E4E4E;
+  --author-background: #d1d1d1;
 }
 
 @media (min-width: 1000px) {
@@ -49,6 +50,10 @@
     justify-content: flex-start;
   }
 
+  .answer {
+    cursor: pointer;
+  }
+
   .like-and-answer {
     font-weight: 400;
     font-size: 14px;
@@ -64,6 +69,7 @@
   }
 
   .heart-btn {
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12);
     width: 20px;
     padding: 5px 10px;
     background: var(--main-orange);
@@ -73,5 +79,36 @@
 
   .lower-item {
     margin-right: 10px;
+  }
+
+  .question-answer {
+    margin-top: 50px;
+  }
+
+  .author-or-coauthor {
+    background: var(--author-background);
+    width: 100%;
+  }
+
+  .hidden-answers {
+    display: none;
+  }
+
+  .show-answers {
+    visibility: visible;
+  }
+
+  .answer-headline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .author {
+    margin-right: 30px;
+    font-family: var(--quicksand-font);
+    color: var(--main-orange);
+    font-weight: 700;
+    font-size: 14px;
   }
 }
