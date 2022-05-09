@@ -5,6 +5,7 @@ import '../src/Styles/App.css';
 import SideMenu from './Components/SideMenu';
 import Header from './Components/Header';
 import DetailCard from './Components/DetailCard';
+import Overview from './Components/Overview';
 
 function App() {
   return (
@@ -43,6 +44,11 @@ function App() {
               <DetailCard />
             </div>
           </section>
+
+          <section>
+            <Overview />
+          </section>
+
         <Footer />
         </main>
     </div>
