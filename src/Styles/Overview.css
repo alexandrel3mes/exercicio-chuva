@@ -46,6 +46,7 @@
 
   .see-more {
     color: var(--main-orange);
+    cursor: pointer;
   }
 
   .overview-text {

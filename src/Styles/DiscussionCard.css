@@ -73,4 +73,72 @@
     background: var(--orange-gradient);
     padding: 10px 20px;
   }
+
+  .create-mode {
+    width: 80%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+
+  .form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    width: 100%;
+  }
+
+  .text-input {
+    background: white;
+    border: var(--thin-border);
+    padding: 20px;
+    width: 100%;
+  }
+
+  .text-input:placeholder-shown {
+    font-family: var(--quicksand-font);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--title-color);
+  }
+
+  .area-input {
+    background: white;
+    border: var(--thin-border);
+    padding: 20px;
+    width: 100%;
+    height: 100px;
+    resize: none;
+    margin-bottom: 20px;
+  }
+
+  .form-header {
+    font-family: var(--quicksand-font);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--title-color);
+  }
+
+  .form-label {
+    text-align: left;
+    font-family: var(--roboto-font);
+    font-weight: 700;
+    font-size: 16px;
+    width: 92%;
+    color: var(--main-orange);
+  }
+
+  .form-btn {
+    color: white;
+    background: var(--orange-gradient);
+    padding: 20px 40px;
+    cursor: pointer;
+    border: none;
+    font-family: var(--quicksand-font);
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
 }
