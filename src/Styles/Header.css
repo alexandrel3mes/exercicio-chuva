@@ -11,7 +11,20 @@
   --roboto-font: 'Roboto', sans-serif;
 }
 
-body {
-  background: var(--bg-color);
-  margin: 0;
+@media (min-width: 1000px) {
+  .header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    background: var(--secondary-orange);
+    height: 90px;
+  }
+
+  .profile-pic {
+    width: 30px;
+    border-radius: 100%;
+  }
 }

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto&display=swap');
+
+:root {
+  --bg-color: white;
+  --main-orange: #ED7839;
+  --secondary-orange: #FDF1EB;
+  --orange-gradient: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+  --links-text-color: #725C5C;
+  --footer-btn-color: #71488E;
+  --quicksand-font: 'Quicksand', sans-serif;
+  --roboto-font: 'Roboto', sans-serif;
+}
+
+@media (min-width: 1000px) {
+  .footer {
+    font-family: var(--quicksand-font);
+    display: flex;
+    position: absolute;
+    flex-flow: row nowrap;
+    align-items: center;
+    bottom: 0;
+    right: 0;
+    width: 75%;
+    margin: 5px 40px 40px 0px;
+  }
+  
+  .img-with-btn {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-right: 50px;
+  }
+  
+  .footer-btn {
+    padding: 10px 100px;
+    font-family: var(--quicksand-font); 
+    background-color: var(--footer-btn-color);
+    border: none;
+    font-size: large;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+  }
+
+}
+

@@ -1,25 +1,51 @@
 import React from "react";
-import slacaLogo from "../Images/slaca-logo.png"
+import '../Styles/Header.css'
+
+import profilePic from '../Images/profile-pic.jpg'
 
 function Header() {
-  const visit = (e) => {
-    e.preventDefault();
-  }
+  return (
+    <header className="header">
+          <div className="top-title">
+            <p className="top-tecnic">
+              Anais do Simpósio Latino Americano de Ciências de Alimentos
+            </p>
+            <h5 className="top-tecnic">
+            Anais do 13 Simpósio Latino Americano de Ciências de Alimentos
+            </h5>
+            <p className="top-tecnic">
+              ISSN: 1234-5678
+            </p>
+          </div>
 
-  return(
-    <header className="app-header">
-    <h2 className="slaca-title">SLACA 2019</h2>
-    <img src={slacaLogo} className="event-logo" alt="Logo Evento" />
 
-    <nav className="app-nav">
-      <a onClick={ (e) => visit(e) } className="nav-item" href="/">Apresentação</a>
-      <a onClick={ (e) => visit(e) } className="nav-item" href="/">Comitês</a>
-      <a onClick={ (e) => visit(e) } className="nav-item" href="/">Autores</a>
-      <a onClick={ (e) => visit(e) } className="nav-item" href="/">Eixos temáticos</a>
-      <a onClick={ (e) => visit(e) } className="nav-item clicked" href="/">Trabalhos</a>
-      <a onClick={ (e) => visit(e) } className="nav-item" href="/">Contato</a>
-    </nav>
-  </header>
+          <div className="user-info-header">
+            <select className="select-header">
+              <option>
+                🌐 PT, BR
+              </option>
+              <option>
+                🌐 EN, US
+              </option>
+              <option>
+                🌐 EN, UK
+              </option>
+            </select>
+
+            <div className="message-with-email">
+              <p className="message">Bem Vindo!</p>
+              <p className="message">alguem12@galoascience.com</p>
+            </div>
+
+            <div className="profile">
+              <img
+                src={profilePic}
+                alt="Profile Pic"
+                className="profile-pic"
+              />
+            </div>            
+          </div>
+      </header>
   )
 }
 
