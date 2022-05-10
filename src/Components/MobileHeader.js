@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import hamburger from '../Images/botao-de-menu-de-tres-linhas-horizontais.png'
+import hamburger from '../Images/botao-de-menu-de-tres-linhas-horizontais.png';
+import profilePic from '../Images/profile-pic.jpg';
 
 import '../Styles/MobileHeader.css'
 
@@ -22,7 +23,10 @@ function MobileHeader() {
     <div>
       <header className="mobile-header">
         <h1>SLACA 2019</h1>
-        <img onClick={ () => menuShow() } className="hamburger" src={hamburger} alt="Hamburger Menu" />
+        <div>
+          <img onClick={ () => menuShow() } className="hamburger" src={hamburger} alt="Hamburger Menu" />
+          <img src={profilePic} alt="Profile Pic" className="profile-pic" />
+        </div>
       </header>
       <div className={hambClass}>
         <p className="mobile-title">Anais do 13 Simpósio Latino Americano de Ciências de Alimentos</p>

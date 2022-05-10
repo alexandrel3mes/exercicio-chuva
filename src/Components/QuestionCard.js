@@ -5,6 +5,11 @@ import whiteHeartIcon from '../Images/white-heart_1f90d.png'
 
 function QuestionCard() {
   const [answers, setAnswers] = useState('answers hidden-answers')
+  const [likes, setLikes] = useState(2)
+
+  const like = () => {
+    setLikes(likes + 1)
+  }
 
   const showOrHide = () => {
     if(answers === 'answers hidden-answers') {
@@ -25,8 +30,8 @@ function QuestionCard() {
         . <br />
         . <br />
         </p>
-        <img className="heart-btn lower-item" src={whiteHeartIcon} alt="Heart Icon" />
-        <p className="lower-item like-and-answer">1 like</p>
+        <img onClick={ () => like() } className="heart-btn lower-item" src={whiteHeartIcon} alt="Heart Icon" />
+        <p className="lower-item like-and-answer">{`${likes} likes`}</p>
         <p onClick={ () => showOrHide() } className="lower-item answer like-and-answer">2 respostas</p>
       </div>
 

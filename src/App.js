@@ -52,7 +52,7 @@ function App() {
             <Overview />
           </section>
 
-          <section>
+          <section className='disc-card'>
             <DiscussionCard />
           </section>
 

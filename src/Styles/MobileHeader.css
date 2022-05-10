@@ -26,6 +26,12 @@
     display: none;
   }
 
+  .profile-pic {
+    width: 30px;
+    border-radius: 100%;
+    margin-left: 20px;
+  }
+
   .mobile-header {
     display: flex;
     z-index: 1;
