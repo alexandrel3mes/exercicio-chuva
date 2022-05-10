@@ -28,6 +28,7 @@
 
   .mobile-header {
     display: flex;
+    z-index: 1;
     align-items: center;
     justify-content: space-around;
     color: white;
@@ -47,19 +48,47 @@
     display: none;
   }
 
+  h1 {
+    font-family: var(--roboto-font);
+  }
+
+  .mobile-title {
+    font-family: var(--quicksand-font);
+  }
+
   .show-nav {
     position: fixed;
     text-align: center;
-    background: rgba(253, 241, 235, .8);
+    z-index: 2;
+    background: rgba(253, 241, 235);
     width: 100%;
     top: 80px
   }
-
+  
   .mobile-nav {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     justify-content: stretch;
+  }
+  
+  .mobile-nav-item {
+    text-decoration: none;
+    font-family: var(--roboto-font);
+    color: white;
+    background: rgba(255, 95, 15, 0.8);
+    padding: 10px 20px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .exit {
+    width: 10%;
+  }
+
+  .clicked-item {
+    background: white;
+    color: rgba(255, 95, 15, 0.8);
   }
 
   .side-menu {

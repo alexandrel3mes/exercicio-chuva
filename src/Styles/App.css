@@ -16,6 +16,14 @@ body {
   margin: 0;
 }
 
+@media (max-width: 1000px) {
+  .main {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+  }
+}
+
 @media (min-width: 1000px) {
   .main {
     position: absolute;
