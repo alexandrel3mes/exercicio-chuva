@@ -63,6 +63,14 @@ body {
   .video {
     width: 80%;
   }
+
+  .btns-and-details {
+    display: flex;
+    width: 90%;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
 
 @media (min-width: 1000px) {

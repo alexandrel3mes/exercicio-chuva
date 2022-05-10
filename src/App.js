@@ -48,7 +48,7 @@ function App() {
             </div>
           </section>
 
-          <section>
+          <section className='over-card'>
             <Overview />
           </section>
 
