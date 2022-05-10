@@ -5,6 +5,7 @@ import handWithPlant from '../Images/handWithPlant.png';
 import ideas from '../Images/ideas.png';
 import qAndA from '../Images/qAndA.png';
 import QuestionCard from "./QuestionCard";
+// import question from '../Images/question.png'
 
 function DiscussionCard() {
   const [createMode, setCreateMode] = useState(false);
@@ -13,6 +14,11 @@ function DiscussionCard() {
   const endForm = () => {
     setCreateMode(false);
     setEndMode(true);
+  }
+
+  const setCreateAgain = () => {
+    setCreateMode(true);
+    setEndMode(false);
   }
   return (
     <div className="discussion">
@@ -59,8 +65,17 @@ function DiscussionCard() {
       }
 
       { endMode && (
-        <div>
-          <h1>Teste</h1>
+        <div className="end-card">
+          <p className="end-title">Seu tópico foi enviado com sucesso! :D</p>
+          <p className="end-msg">Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim que seu tópico for respondido!</p>
+          <p className="end-link">Descubra outros trabalhos!</p>
+          <button className="new-btn" onClick={ () => setCreateAgain() }>criar novo tópico</button>
+
+          
+          <div className="feedback-card">
+            <p className="feedback-msg">Aguardando feedback dos autores</p>
+            <p className="end-link">Editar tópico</p>
+          </div>
         </div>
       )}
 
