@@ -7,11 +7,13 @@ import Header from './Components/Header';
 import DetailCard from './Components/DetailCard';
 import Overview from './Components/Overview';
 import DiscussionCard from './Components/DiscussionCard';
+import MobileHeader from './Components/MobileHeader';
 
 function App() {
   return (
     <div className="App">
         <SideMenu />
+        <MobileHeader />
         <Header />
 
         <main className="main">

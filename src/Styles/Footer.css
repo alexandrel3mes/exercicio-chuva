@@ -24,6 +24,10 @@
     border-top: 1px solid rgb(165, 165, 165, 0.5);
     margin: 5px 40px 40px 0px;
   }
+
+  .galoaLogo {
+    transform: scale(.7);
+  }
   
   .img-with-btn {
     display: flex;
@@ -33,7 +37,7 @@
   }
   
   .footer-btn {
-    padding: 10px 100px;
+    padding: 10px 60px;
     font-family: var(--quicksand-font); 
     background-color: var(--footer-btn-color);
     border: none;
