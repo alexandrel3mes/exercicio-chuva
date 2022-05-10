@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/alexandrel3mes/exercicio-chuva/static/css/main.bfd4819e.css",
+    "main.js": "/alexandrel3mes/exercicio-chuva/static/js/main.76971b8d.js",
+    "static/js/787.00d1d164.chunk.js": "/alexandrel3mes/exercicio-chuva/static/js/787.00d1d164.chunk.js",
+    "static/media/slaca-logo.png": "/alexandrel3mes/exercicio-chuva/static/media/slaca-logo.97e03143f0a957b81bef.png",
+    "static/media/galoalogo.png": "/alexandrel3mes/exercicio-chuva/static/media/galoalogo.154dcc3b0412bced6288.png",
+    "static/media/profile-pic.jpg": "/alexandrel3mes/exercicio-chuva/static/media/profile-pic.651e19375f86238625d3.jpg",
+    "index.html": "/alexandrel3mes/exercicio-chuva/index.html",
+    "main.bfd4819e.css.map": "/alexandrel3mes/exercicio-chuva/static/css/main.bfd4819e.css.map",
+    "main.76971b8d.js.map": "/alexandrel3mes/exercicio-chuva/static/js/main.76971b8d.js.map",
+    "787.00d1d164.chunk.js.map": "/alexandrel3mes/exercicio-chuva/static/js/787.00d1d164.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bfd4819e.css",
+    "static/js/main.76971b8d.js"
+  ]
+}
