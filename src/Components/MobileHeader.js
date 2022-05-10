@@ -33,7 +33,6 @@ function MobileHeader() {
           <a onClick={ (e) => visit(e) } className="mobile-nav-item" href="/">Eixos temáticos</a>
           <a onClick={ (e) => visit(e) } className="mobile-nav-item clicked-item" href="/">Trabalhos</a>
           <a onClick={ (e) => visit(e) } className="mobile-nav-item" href="/">Contato</a>
-          <a onClick={ (e) => {visit(e); menuShow()} } className="mobile-nav-item exit" href="/">❌</a>
         </nav>
       </div>
     </div>
