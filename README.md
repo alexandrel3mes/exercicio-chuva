@@ -7,7 +7,11 @@ Aplicação totalmente responsiva feita em React, respeitando as boas práticas 
 
 ![Aplicação Desktop](./gifs/desktop.gif)
 
-![Aplicação Mobile](./gifs/mobile.gif | width=250)
+<img
+src="mobile.gif"
+width="200"
+height="400"
+/>
 
 ## Feito por Alexandre Lemes
 
